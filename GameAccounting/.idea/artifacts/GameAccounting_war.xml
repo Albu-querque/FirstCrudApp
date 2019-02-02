@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="GameAccounting:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>GameAccounting</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="BookManger.war">
+      <element id="artifact" artifact-name="GameAccounting:war exploded" />
+    </root>
+  </artifact>
+</component>
